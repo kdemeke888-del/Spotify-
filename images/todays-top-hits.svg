@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <linearGradient id="hitsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF416C" />
+      <stop offset="100%" stop-color="#FF4B2B" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#hitsGrad)" rx="15"/>
+  <circle cx="150" cy="120" r="60" fill="#121212" opacity="0.4"/>
+  <!-- Vinyl Record -->
+  <circle cx="150" cy="120" r="50" fill="#111" stroke="#333" stroke-width="2"/>
+  <circle cx="150" cy="120" r="35" fill="none" stroke="#444" stroke-width="1"/>
+  <circle cx="150" cy="120" r="20" fill="#1ED760"/>
+  <circle cx="150" cy="120" r="5" fill="#111"/>
+  <!-- Text -->
+  <text x="150" y="220" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">TODAY'S</text>
+  <text x="150" y="255" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" fill="#FFFFFF" text-anchor="middle">TOP HITS</text>
+  <text x="150" y="280" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#F0F0F0" text-anchor="middle">34,000,000+ FOLLOWERS</text>
+</svg>

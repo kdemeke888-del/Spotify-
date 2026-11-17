@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Sign Up &amp; Support</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img src="images/spotify-logo.svg" alt="Spotify logo" width="160"></a>
+        <h1>Sign Up for Spotify</h1>
+        <p>Create your free account or get in touch if you need help.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="charts.html">Top Charts</a></li>
+            <li><a href="signup.html"><strong>Sign Up</strong></a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Create Your Account</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="email">Email address: *</label><br>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </p>
+                <p>
+                    <label for="username">Profile name: *</label><br>
+                    <input type="text" id="username" name="username" placeholder="What should we call you?" required>
+                </p>
+                <p>
+                    <label for="password">Create password: *</label><br>
+                    <input type="password" id="password" name="password" required>
+                </p>
+                <p>
+                    <label for="device">What device do you listen on most?</label><br>
+                    <select id="device" name="device">
+                        <option value="phone">Phone</option>
+                        <option value="pc">Laptop / PC</option>
+                        <option value="speaker">Smart Speaker / TV</option>
+                    </select>
+                </p>
+                <p>
+                    <label><input type="checkbox" name="terms" required> I agree to Spotify's Terms and Conditions. *</label>
+                </p>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Getting Started in 3 Steps</h2>
+            <ol>
+                <li>Check your inbox to verify your email.</li>
+                <li>Download Spotify on your phone or computer.</li>
+                <li>Search your favorite artists and make your first playlist.</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Support Team Contacts</h2>
+            <table border="1" cellpadding="6">
+                <caption>Help &amp; Support Directory</caption>
+                <thead>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Email Contact</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>General Support</td>
+                        <td><a href="mailto:support@spotify.com">support@spotify.com</a></td>
+                        <td>24/7</td>
+                    </tr>
+                    <tr>
+                        <td>Artist Support</td>
+                        <td><a href="mailto:artists@spotify.com">artists@spotify.com</a></td>
+                        <td>Mon - Fri</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Send Us a Message</h2>
+            <form action="mailto:support@spotify.com" method="post" enctype="text/plain">
+                <p>
+                    <label for="msg-email">Your email: *</label><br>
+                    <input type="email" id="msg-email" name="email" required>
+                </p>
+                <p>
+                    <label for="message">How can we help? *</label><br>
+                    <textarea id="message" name="message" rows="4" cols="35" placeholder="Tell us what's going on..." required></textarea>
+                </p>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Need help? Contact: <a href="mailto:support@spotify.com">support@spotify.com</a></p>
+        <p><a href="index.html">Home</a> | <a href="charts.html">Top Charts</a> | <a href="signup.html">Sign Up</a></p>
+        <p><small>&copy; 2026 Spotify</small></p>
+    </footer>
+
+</body>
+</html>
